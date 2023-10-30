@@ -1,9 +1,15 @@
 export default function Header() {
   return (
-    <header className="z-[99] relative">
-      <div className="top-0 left-1/2 h-10 w-80 shadow-lg shadow-black/[0.03] rounded-full bg-red-500 text-green-600">
-        Header
-      </div>
+    <header className="flex justify-center">
+      <nav
+        className="flex rounded-full bg-white/90 px-3 
+      font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 
+      ring-1 ring-zinc-900/5 backdrop-blur my-8 w-96 h-9"
+      >
+        <li>About</li>
+        <li>Projects</li>
+        <li>About</li>
+      </nav>
     </header>
   );
 }

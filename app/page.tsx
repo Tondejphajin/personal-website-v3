@@ -1,7 +1,11 @@
+import Main from "@/components/Main";
+import Gallery from "@/components/Gallery";
+
 export default function Home() {
   return (
     <>
-      <h1>Test</h1>
+      <Main />
+      <Gallery />
     </>
   );
 }

@@ -1,6 +1,10 @@
 import Image from "next/image";
-import profilePic from "../public/eagle.jpg";
+import profilePic from "../public/profile-me.png";
 import Link from "next/link";
+import Line from "./icons/Line";
+import Github from "./icons/Github";
+import LinkedIn from "./icons/LinkedIn";
+import CV from "./icons/CV";
 
 export default function Mome() {
   return (
@@ -18,23 +22,29 @@ export default function Mome() {
         <div className="mt-9">
           <div className="mx-auto">
             <div className="max-w-2xl">
-              <h1 className="leading-normal text-[2.60rem] font-extrabold text-zinc-800">
-                Aspiring full stack developer,
-                <br />
-                and fresh graduate engineer.
+              <h1 className="leading-normal text-5xl font-extrabold text-zinc-800">
+                Full-Stack Developer
               </h1>
               <p className="mt-6 text-base text-zinc-600">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at
-                eligendi rem necessitatibus suscipit veritatis, animi ipsam
-                aliquid perspiciatis? Quam possimus repellat exercitationem
-                repudiandae eligendi alias, ipsa necessitatibus officia
-                perferendis?
+                I&apos;m Tin Dejphachon. With an expertist in full-stack web
+                development, I dedicate myself to crafting functional and
+                user-friendly web applications. My focus lies in continually
+                learning and applying current technologies to develop reliable
+                solutions.
               </p>
               <div className="mt-6 flex gap-6">
-                <Link href="">Line</Link>
-                <Link href="">GitHub</Link>
-                <Link href="">LinkedIn</Link>
-                <Link href="">Youtube</Link>
+                <Link href="" className="group">
+                  <Line />
+                </Link>
+                <Link href="" className="group">
+                  <Github />
+                </Link>
+                <Link href="" className="group">
+                  <LinkedIn />
+                </Link>
+                <Link href="" className="group">
+                  <CV />
+                </Link>
               </div>
             </div>
           </div>

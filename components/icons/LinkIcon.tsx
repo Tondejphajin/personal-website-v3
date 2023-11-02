@@ -1,5 +1,3 @@
-import linkIcon from "./../../public/link.svg";
-
 export default function LinkIcon() {
   return (
     <div>
